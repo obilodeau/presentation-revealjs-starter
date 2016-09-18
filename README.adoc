@@ -1,0 +1,35 @@
+= Reveal.js Starter Presentation
+
+A starter project for creating a Reveal.js presentation from AsciiDoc source.
+
+== Setup
+
+=== Prerequisites
+
+If you're using RVM, make sure you switch away from any gemset:
+
+ $ rvm use default
+
+or
+
+ $ rvm use system
+
+NOTE: For some reason, when you use the system Ruby on Fedora, you also have to add the json gem to the Gemfile.
+
+=== Install
+
+The following will install the gems into the project.
+
+ $ rm -f Gemfile.lock
+   bundle config --local github.https true
+   bundle --path=.bundle/gems --binstubs=.bundle/.bin
+
+== Build
+
+ $ ./.bundle/.bin/asciidoctor-revealjs \
+   -a revealjsdir=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0 index.adoc
+
+or
+
+ $ bundle exec asciidoctor-revealjs \
+   -a revealjsdir=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0 index.adoc
