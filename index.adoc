@@ -1,15 +1,18 @@
-= Reveal.js Starter Presentation
+= Keycloak: Gestion de l'identité et des accès dans une architecture micro-services  
 :imagesdir: images
 
-== Topic Slide
+== Présentation des speakers et de TellMePlus
 
-== Key Points
-[%step]
-* First point
-* Second point
-* Final point
+== Rappel sur OIDC & JWT
 
-== !
-image::html5.svg[]
+== Gestion des utilisateurs sur notre plateforme en 2017
+ 
+== La transformation en micro service et recherche d'une nouveau systène d'auth
 
-== The End
+== Keycloak Vs Hydra
+
+== Présentation des features de Keycloak
+
+== Notre utilisation : token & autre complication...
+
+== Question ???
