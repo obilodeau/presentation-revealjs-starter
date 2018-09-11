@@ -1,15 +1,46 @@
-= Reveal.js Starter Presentation
+= Keycloak: Gestion de l'identité et des accès dans une architecture micro-services  
 :imagesdir: images
+:source-highlighter: highlightjs
+:revealjs_theme: solarized
 
-== Topic Slide
+[transition=convex]
+== Clement Compas
 
-== Key Points
+[transition=convex]
+== Benjamin Garcia
+
+* Java Since 2007
+* Scala Since 1 years 
+
+[transition=convex]
+== Tellmeplus
+
 [%step]
-* First point
-* Second point
-* Final point
+* On fait quoi ?
+* Et la sécurité ?
 
-== !
-image::html5.svg[]
+[transition=convex]
+== Les Standards dont nous aurons besoins
 
-== The End
+[%step]
+* OAuth 2
+* OIDC
+
+[transition=convex]
+== Gestion des utilisateurs sur notre plateforme en 2017
+
+[transition=convex]
+== La transformation en micro service et recherche d'une nouveau systène d'auth
+
+[transition=convex]
+== Keycloak Vs Hydra
+
+[transition=convex]
+== Présentation des features de Keycloak
+
+[transition=convex]
+== Notre utilisation : token & autre complication...
+
+
+[transition=convex]
+== Question ???
